@@ -38,8 +38,4 @@ Alternatively, serve the project with any static file server and open its local 
 - CSS3
 - Vanilla JavaScript
 
-## GitHub Topics
 
-Add these topics to the repository's **About** section:
-
-`rock-paper-scissors` `javascript` `html` `css` `browser-game` `web-game` `vanilla-javascript` `beginner-project`
