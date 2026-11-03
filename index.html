@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="game-card">
+    <header class="game-header">
+      <h1>Rock Paper Scissors</h1>
+      <div class="scoreboard">
+        <div class="score-pill">
+          <span class="label">Player</span>
+          <span id="playerscoredisplay" class="value">0</span>
+        </div>
+        <span class="score-divider">:</span>
+        <div class="score-pill">
+          <span class="label">Computer</span>
+          <span id="computerscoredisplay" class="value">0</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <button class="choice-btn" onclick="playgame('rock')">
+        <span class="icon">👊</span>
+        <span class="btn-label">Rock</span>
+      </button>
+      <button class="choice-btn" onclick="playgame('paper')">
+        <span class="icon">✋</span>
+        <span class="btn-label">Paper</span>
+      </button>
+      <button class="choice-btn" onclick="playgame('scissors')">
+        <span class="icon">✌</span>
+        <span class="btn-label">Scissors</span>
+      </button>
+    </section>
+
+    <section class="arena">
+      <p id="display" class="match-text">Player: —</p>
+      <p id="computerdisplay" class="match-text">Computer: —</p>
+      <div id="resultdisplay" class="result-badge">Choose your move</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
